@@ -1,0 +1,102 @@
+:root {
+    --main-color: #05736A;
+    --green-1-hex: #77D1C7;
+    --green-2-hex: #4AB5A9;
+    --green-3-hex: #2B9E93;
+    --green-4-hex: #0D9488;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.12rem;
+    background-image: linear-gradient(#fff, #C2E8EB);
+}
+
+#head {
+    height: 400px;
+}
+
+#profile_picture {
+    border-radius: 50%;
+}
+
+#main_name {
+    font-weight: 200;
+    font-size: 3.5rem;
+}
+
+.section {
+    margin: 50px 0;
+}
+
+.progress-bar {
+    background-color: var(--green-1-hex);
+    color: #666;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.progress {
+    height: 30px;
+}
+
+.header {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--main-color);
+    margin: 20px 0;
+}
+
+.skill {
+    margin: 10px 0;
+}
+
+.description {
+    border-bottom: solid var(--green-1-hex) 1px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.lan-img {
+    width: 100%;
+    max-width: 50px;
+}
+
+.img-logo {
+    padding-left: 15;
+    padding-right: 5px;
+}
+
+.progress-col {
+    padding: 0;
+    padding-right: 15px;
+}
+
+.img-col {
+    width: 100%;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+i {
+    font-size: 1.5rem;
+}
