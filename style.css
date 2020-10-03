@@ -1,16 +1,18 @@
 :root {
     --main-color: #05736A;
+    --green-0-hex: #C2E8EB;
     --green-1-hex: #77D1C7;
     --green-2-hex: #4AB5A9;
     --green-3-hex: #2B9E93;
     --green-4-hex: #0D9488;
+    --gray: #666;
 }
 
 body {
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 1.12rem;
-    background-image: linear-gradient(#fff, #C2E8EB);
+    background-image: linear-gradient(#fff, var(--green-0-hex));
 }
 
 #head {
@@ -32,7 +34,7 @@ body {
 
 .progress-bar {
     background-color: var(--green-1-hex);
-    color: #666;
+    color: var(--gray);
     font-weight: 700;
     font-size: 1rem;
 }
@@ -76,6 +78,12 @@ body {
 
 .img-col {
     width: 100%;
+}
+
+.list-group-item {
+    background-color: var(--green-0-hex);
+    color: var(--gray);
+    font-weight: 700;
 }
 
 h4 {
